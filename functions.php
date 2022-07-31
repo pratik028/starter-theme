@@ -105,12 +105,6 @@ final class Academy {
 	 * Instantiate classes.
 	 */
 	private function instantiate() {
-		// Setting Manager.
-		// $this->container['settings'] = new \Academy\Settings();
-
-		// JSON Manager.
-		$this->container['json'] = new \MyThemeShop\Json_Manager();
-
 		// Just init without storing it in the container.
 		new Academy\Frontend\Frontend();
 		new Academy\Admin\Admin_Init();

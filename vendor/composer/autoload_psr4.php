@@ -6,6 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'MyThemeShop\\Helpers\\' => array($vendorDir . '/mythemeshop/wordpress-helpers/src'),
     'Carbon_Fields\\' => array($vendorDir . '/htmlburger/carbon-fields/core'),
 );

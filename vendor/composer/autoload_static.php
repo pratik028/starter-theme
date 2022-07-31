@@ -7,10 +7,6 @@ namespace Composer\Autoload;
 class ComposerStaticInit7914464ea09a54d905b2bfbd8722ca50
 {
     public static $prefixLengthsPsr4 = array (
-        'M' => 
-        array (
-            'MyThemeShop\\Helpers\\' => 20,
-        ),
         'C' => 
         array (
             'Carbon_Fields\\' => 14,
@@ -18,10 +14,6 @@ class ComposerStaticInit7914464ea09a54d905b2bfbd8722ca50
     );
 
     public static $prefixDirsPsr4 = array (
-        'MyThemeShop\\Helpers\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/mythemeshop/wordpress-helpers/src',
-        ),
         'Carbon_Fields\\' => 
         array (
             0 => __DIR__ . '/..' . '/htmlburger/carbon-fields/core',
@@ -39,10 +31,6 @@ class ComposerStaticInit7914464ea09a54d905b2bfbd8722ca50
         'Academy\\Frontend\\Rest' => __DIR__ . '/../..' . '/includes/frontend/class-rest.php',
         'Academy\\Frontend\\Setup' => __DIR__ . '/../..' . '/includes/frontend/class-setup.php',
         'Academy\\Helper' => __DIR__ . '/../..' . '/includes/class-helper.php',
-        'Academy\\Login\\Facebook' => __DIR__ . '/../..' . '/includes/login/class-facebook.php',
-        'Academy\\Login\\Google' => __DIR__ . '/../..' . '/includes/login/class-google.php',
-        'Academy\\Login\\Login' => __DIR__ . '/../..' . '/includes/login/class-login.php',
-        'Academy\\Login\\Rest' => __DIR__ . '/../..' . '/includes/login/class-rest.php',
         'Academy\\Shortcodes' => __DIR__ . '/../..' . '/includes/class-shortcodes.php',
         'Academy\\Traits\\Ajax' => __DIR__ . '/../..' . '/includes/traits/class-ajax.php',
         'Academy\\Traits\\Hooker' => __DIR__ . '/../..' . '/includes/traits/class-hooker.php',
@@ -170,30 +158,6 @@ class ComposerStaticInit7914464ea09a54d905b2bfbd8722ca50
         'Carbon_Fields\\Widget' => __DIR__ . '/..' . '/htmlburger/carbon-fields/core/Widget.php',
         'Carbon_Fields\\Widget\\Widget' => __DIR__ . '/..' . '/htmlburger/carbon-fields/core/Widget/Widget.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'MyThemeShop\\Admin\\List_Table' => __DIR__ . '/..' . '/mythemeshop/wordpress-helpers/src/admin/class-list-table.php',
-        'MyThemeShop\\Admin\\Page' => __DIR__ . '/..' . '/mythemeshop/wordpress-helpers/src/admin/class-page.php',
-        'MyThemeShop\\Database\\Clauses' => __DIR__ . '/..' . '/mythemeshop/wordpress-helpers/src/database/class-clauses.php',
-        'MyThemeShop\\Database\\Database' => __DIR__ . '/..' . '/mythemeshop/wordpress-helpers/src/database/class-database.php',
-        'MyThemeShop\\Database\\Escape' => __DIR__ . '/..' . '/mythemeshop/wordpress-helpers/src/database/class-escape.php',
-        'MyThemeShop\\Database\\GroupBy' => __DIR__ . '/..' . '/mythemeshop/wordpress-helpers/src/database/class-groupby.php',
-        'MyThemeShop\\Database\\Joins' => __DIR__ . '/..' . '/mythemeshop/wordpress-helpers/src/database/class-joins.php',
-        'MyThemeShop\\Database\\OrderBy' => __DIR__ . '/..' . '/mythemeshop/wordpress-helpers/src/database/class-orderby.php',
-        'MyThemeShop\\Database\\Query_Builder' => __DIR__ . '/..' . '/mythemeshop/wordpress-helpers/src/database/class-query-builder.php',
-        'MyThemeShop\\Database\\Select' => __DIR__ . '/..' . '/mythemeshop/wordpress-helpers/src/database/class-select.php',
-        'MyThemeShop\\Database\\Translate' => __DIR__ . '/..' . '/mythemeshop/wordpress-helpers/src/database/class-translate.php',
-        'MyThemeShop\\Database\\Where' => __DIR__ . '/..' . '/mythemeshop/wordpress-helpers/src/database/class-where.php',
-        'MyThemeShop\\Helpers\\Arr' => __DIR__ . '/..' . '/mythemeshop/wordpress-helpers/src/helpers/class-arr.php',
-        'MyThemeShop\\Helpers\\Attachment' => __DIR__ . '/..' . '/mythemeshop/wordpress-helpers/src/helpers/class-attachment.php',
-        'MyThemeShop\\Helpers\\Conditional' => __DIR__ . '/..' . '/mythemeshop/wordpress-helpers/src/helpers/class-conditional.php',
-        'MyThemeShop\\Helpers\\DB' => __DIR__ . '/..' . '/mythemeshop/wordpress-helpers/src/helpers/class-db.php',
-        'MyThemeShop\\Helpers\\HTML' => __DIR__ . '/..' . '/mythemeshop/wordpress-helpers/src/helpers/class-html.php',
-        'MyThemeShop\\Helpers\\Param' => __DIR__ . '/..' . '/mythemeshop/wordpress-helpers/src/helpers/class-param.php',
-        'MyThemeShop\\Helpers\\Str' => __DIR__ . '/..' . '/mythemeshop/wordpress-helpers/src/helpers/class-str.php',
-        'MyThemeShop\\Helpers\\Url' => __DIR__ . '/..' . '/mythemeshop/wordpress-helpers/src/helpers/class-url.php',
-        'MyThemeShop\\Helpers\\WordPress' => __DIR__ . '/..' . '/mythemeshop/wordpress-helpers/src/helpers/class-wordpress.php',
-        'MyThemeShop\\Json_Manager' => __DIR__ . '/..' . '/mythemeshop/wordpress-helpers/src/class-json-manager.php',
-        'MyThemeShop\\Notification' => __DIR__ . '/..' . '/mythemeshop/wordpress-helpers/src/class-notification.php',
-        'MyThemeShop\\Notification_Center' => __DIR__ . '/..' . '/mythemeshop/wordpress-helpers/src/class-notification-center.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
