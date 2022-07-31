@@ -3,15 +3,15 @@
  * The admin bootstrap of the plugin.
  *
  * @since      1.0.0
- * @package    Academy
- * @subpackage Academy\Admin
+ * @package    Theme_Name
+ * @subpackage Theme_Name\Admin
  * @author     Pratik <pratik_deshmukh28@yahoo.com>
  */
 
-namespace Academy\Frontend;
+namespace Theme_Name\Frontend;
 
-use Academy\Helper;
-use Academy\Traits\Hooker;
+use Theme_Name\Helper;
+use Theme_Name\Traits\Hooker;
 
 defined( 'ABSPATH' ) || exit;
 

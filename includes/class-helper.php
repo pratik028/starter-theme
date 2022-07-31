@@ -3,7 +3,7 @@
  * Helper Functions.
  */
 
-namespace Academy;
+namespace Theme_Name;
 
 defined( 'ABSPATH' ) || exit;
 

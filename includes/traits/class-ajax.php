@@ -3,12 +3,12 @@
  * The AJAX.
  *
  * @since      1.0.0
- * @package    Academy
- * @subpackage Academy\Traits
+ * @package    Theme_Name
+ * @subpackage Theme_Name\Traits
  * @author     Bio DB <email@gmail.com>
  */
 
-namespace Academy\Traits;
+namespace Theme_Name\Traits;
 
 defined( 'ABSPATH' ) || exit;
 
@@ -29,7 +29,7 @@ trait Ajax {
 	 *                                  in the order in which they were added to the action.
 	 */
 	protected function ajax( $tag, $function_to_add, $priority = 10 ) {
-		\add_action( 'wp_ajax_academy_' . $tag, [ $this, $function_to_add ], $priority );
+		\add_action( 'wp_ajax_theme_name_' . $tag, [ $this, $function_to_add ], $priority );
 	}
 
 	/**

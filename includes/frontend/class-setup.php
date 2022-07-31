@@ -3,14 +3,14 @@
  * The admin bootstrap of the plugin.
  *
  * @since      1.0.0
- * @package    Academy
- * @subpackage Academy\Admin
+ * @package    Theme_Name
+ * @subpackage Theme_Name\Admin
  * @author     Pratik <pratik_deshmukh28@yahoo.com>
  */
 
-namespace Academy\Frontend;
+namespace Theme_Name\Frontend;
 
-use Academy\Traits\Hooker;
+use Theme_Name\Traits\Hooker;
 
 defined( 'ABSPATH' ) || exit;
 
@@ -36,10 +36,10 @@ class Setup {
 	public function after_setup_theme() {
 		add_theme_support( 'wp-block-styles' );
 
-		require_once( ACADEMY_PATH . '/vendor/autoload.php' );
+		require_once( THEME_NAME_PATH . '/vendor/autoload.php' );
 		\Carbon_Fields\Carbon_Fields::boot();
 
-		new \Academy\Blocks\Blocks();
-		new \Academy\Shortcodes();
+		new \Theme_Name\Blocks\Blocks();
+		new \Theme_Name\Shortcodes();
 	}
 }

@@ -11,11 +11,11 @@
 defined( 'ABSPATH' ) || exit;
 
 /**
- * Academy class.
+ * Theme_Name class.
  *
  * @class Main class of the plugin.
  */
-final class Academy {
+final class Theme_Name {
 
 	/**
 	 * Plugin version.
@@ -34,7 +34,7 @@ final class Academy {
 	/**
 	 * The single instance of the class.
 	 *
-	 * @var Academy
+	 * @var Theme_Name
 	 */
 	protected static $instance = null;
 
@@ -51,16 +51,16 @@ final class Academy {
 	}
 
 	/**
-	 * Retrieve main Academy instance.
+	 * Retrieve main Theme_Name instance.
 	 *
 	 * Ensure only one instance is loaded or can be loaded.
 	 *
 	 * @see rank_math()
-	 * @return Academy
+	 * @return Theme_Name
 	 */
 	public static function get() {
-		if ( is_null( self::$instance ) && ! ( self::$instance instanceof Academy ) ) {
-			self::$instance = new Academy();
+		if ( is_null( self::$instance ) && ! ( self::$instance instanceof Theme_Name ) ) {
+			self::$instance = new Theme_Name();
 			self::$instance->setup();
 		}
 
@@ -81,17 +81,17 @@ final class Academy {
 		$this->instantiate();
 
 		// Loaded action.
-		do_action( 'academy/loaded' );
+		do_action( 'theme_name/loaded' );
 	}
 
 	/**
 	 * Define the plugin constants.
 	 */
 	private function define_constants() {
-		define( 'ACADEMY_VERSION', $this->version );
-		define( 'ACADEMY_FILE', __FILE__ );
-		define( 'ACADEMY_PATH', dirname( ACADEMY_FILE ) . '/' );
-		define( 'ACADEMY_URL', get_template_directory_uri() . '/' );
+		define( 'THEME_NAME_VERSION', $this->version );
+		define( 'THEME_NAME_FILE', __FILE__ );
+		define( 'THEME_NAME_PATH', dirname( THEME_NAME_FILE ) . '/' );
+		define( 'THEME_NAME_URL', get_template_directory_uri() . '/' );
 	}
 
 	/**
@@ -106,8 +106,8 @@ final class Academy {
 	 */
 	private function instantiate() {
 		// Just init without storing it in the container.
-		new Academy\Frontend\Frontend();
-		new Academy\Admin\Admin_Init();
+		new Theme_Name\Frontend\Frontend();
+		new Theme_Name\Admin\Admin_Init();
 
 		// Initialize the action and filter hooks.
 		$this->init_actions();
@@ -122,13 +122,13 @@ final class Academy {
 }
 
 /**
- * Returns the main instance of Academy to prevent the need to use globals.
+ * Returns the main instance of Theme_Name to prevent the need to use globals.
  *
- * @return Academy
+ * @return Theme_Name
  */
-function academy() {
-	return Academy::get();
+function theme_name() {
+	return Theme_Name::get();
 }
 
 // Start it.
-academy();
+theme_name();

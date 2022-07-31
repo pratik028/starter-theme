@@ -3,7 +3,7 @@
         'name' => 'pratik028/starter-theme',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '1d0814ce9fab1b934642fa6636ff8511f25187d1',
+        'reference' => 'f53f314739cedad50db0b3cef89fbb4e31064d93',
         'type' => 'wordpress-theme',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -22,7 +22,7 @@
         'pratik028/starter-theme' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '1d0814ce9fab1b934642fa6636ff8511f25187d1',
+            'reference' => 'f53f314739cedad50db0b3cef89fbb4e31064d93',
             'type' => 'wordpress-theme',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

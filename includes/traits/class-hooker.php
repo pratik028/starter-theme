@@ -3,12 +3,12 @@
  * The Hooker.
  *
  * @since      1.0.0
- * @package    Academy
- * @subpackage Academy\Traits
- * @author     Academy <email@gmail.com>
+ * @package    Theme_Name
+ * @subpackage Theme_Name\Traits
+ * @author     Theme_Name <email@gmail.com>
  */
 
-namespace Academy\Traits;
+namespace Theme_Name\Traits;
 
 defined( 'ABSPATH' ) || exit;
 
@@ -99,7 +99,7 @@ trait Hooker {
 			return;
 		}
 
-		$action = 'academy/' . $args[0];
+		$action = 'theme_name/' . $args[0];
 		unset( $args[0] );
 
 		\do_action_ref_array( $action, \array_merge( [], $args ) );
@@ -113,7 +113,7 @@ trait Hooker {
 			return;
 		}
 
-		$action = 'academy/' . $args[0];
+		$action = 'theme_name/' . $args[0];
 		unset( $args[0] );
 
 		return \apply_filters_ref_array( $action, \array_merge( [], $args ) );

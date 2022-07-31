@@ -21,19 +21,6 @@ class ComposerStaticInit7914464ea09a54d905b2bfbd8722ca50
     );
 
     public static $classMap = array (
-        'Academy\\Admin\\Admin_Init' => __DIR__ . '/../..' . '/includes/class-admin.php',
-        'Academy\\Admin\\Allow_SVG' => __DIR__ . '/../..' . '/includes/admin/class-allow-svg.php',
-        'Academy\\Admin\\CPT' => __DIR__ . '/../..' . '/includes/admin/class-cpt.php',
-        'Academy\\Admin\\Taxonomy' => __DIR__ . '/../..' . '/includes/admin/class-taxonomy.php',
-        'Academy\\Blocks\\Blocks' => __DIR__ . '/../..' . '/includes/class-blocks.php',
-        'Academy\\Frontend\\Assets' => __DIR__ . '/../..' . '/includes/frontend/class-assets.php',
-        'Academy\\Frontend\\Frontend' => __DIR__ . '/../..' . '/includes/class-frontend.php',
-        'Academy\\Frontend\\Rest' => __DIR__ . '/../..' . '/includes/frontend/class-rest.php',
-        'Academy\\Frontend\\Setup' => __DIR__ . '/../..' . '/includes/frontend/class-setup.php',
-        'Academy\\Helper' => __DIR__ . '/../..' . '/includes/class-helper.php',
-        'Academy\\Shortcodes' => __DIR__ . '/../..' . '/includes/class-shortcodes.php',
-        'Academy\\Traits\\Ajax' => __DIR__ . '/../..' . '/includes/traits/class-ajax.php',
-        'Academy\\Traits\\Hooker' => __DIR__ . '/../..' . '/includes/traits/class-hooker.php',
         'Carbon_Fields\\Block' => __DIR__ . '/..' . '/htmlburger/carbon-fields/core/Block.php',
         'Carbon_Fields\\Carbon_Fields' => __DIR__ . '/..' . '/htmlburger/carbon-fields/core/Carbon_Fields.php',
         'Carbon_Fields\\Container' => __DIR__ . '/..' . '/htmlburger/carbon-fields/core/Container.php',
@@ -158,6 +145,19 @@ class ComposerStaticInit7914464ea09a54d905b2bfbd8722ca50
         'Carbon_Fields\\Widget' => __DIR__ . '/..' . '/htmlburger/carbon-fields/core/Widget.php',
         'Carbon_Fields\\Widget\\Widget' => __DIR__ . '/..' . '/htmlburger/carbon-fields/core/Widget/Widget.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Theme_Name\\Admin\\Admin_Init' => __DIR__ . '/../..' . '/includes/class-admin.php',
+        'Theme_Name\\Admin\\Allow_SVG' => __DIR__ . '/../..' . '/includes/admin/class-allow-svg.php',
+        'Theme_Name\\Admin\\CPT' => __DIR__ . '/../..' . '/includes/admin/class-cpt.php',
+        'Theme_Name\\Admin\\Taxonomy' => __DIR__ . '/../..' . '/includes/admin/class-taxonomy.php',
+        'Theme_Name\\Blocks\\Blocks' => __DIR__ . '/../..' . '/includes/class-blocks.php',
+        'Theme_Name\\Frontend\\Assets' => __DIR__ . '/../..' . '/includes/frontend/class-assets.php',
+        'Theme_Name\\Frontend\\Frontend' => __DIR__ . '/../..' . '/includes/class-frontend.php',
+        'Theme_Name\\Frontend\\Rest' => __DIR__ . '/../..' . '/includes/frontend/class-rest.php',
+        'Theme_Name\\Frontend\\Setup' => __DIR__ . '/../..' . '/includes/frontend/class-setup.php',
+        'Theme_Name\\Helper' => __DIR__ . '/../..' . '/includes/class-helper.php',
+        'Theme_Name\\Shortcodes' => __DIR__ . '/../..' . '/includes/class-shortcodes.php',
+        'Theme_Name\\Traits\\Ajax' => __DIR__ . '/../..' . '/includes/traits/class-ajax.php',
+        'Theme_Name\\Traits\\Hooker' => __DIR__ . '/../..' . '/includes/traits/class-hooker.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

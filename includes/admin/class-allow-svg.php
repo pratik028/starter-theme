@@ -3,9 +3,9 @@
  * The code to allow SVG Image upload on the site.
  */
 
-namespace Academy\Admin;
+namespace Theme_Name\Admin;
 
-use Academy\Traits\Hooker;
+use Theme_Name\Traits\Hooker;
 
 defined( 'ABSPATH' ) || exit;
 

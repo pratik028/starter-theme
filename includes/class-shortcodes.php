@@ -3,14 +3,14 @@
  * The admin bootstrap of the plugin.
  *
  * @since      1.0.0
- * @package    Academy
- * @subpackage Academy\Admin
+ * @package    Theme_Name
+ * @subpackage Theme_Name\Admin
  * @author     Pratik <pratik_deshmukh28@yahoo.com>
  */
 
-namespace Academy;
+namespace Theme_Name;
 
-use Academy\Traits\Hooker;
+use Theme_Name\Traits\Hooker;
 
 defined( 'ABSPATH' ) || exit;
 
@@ -27,6 +27,6 @@ class Shortcodes {
 	 * The Constructor.
 	 */
 	public function __construct() {
-		// $this->shortcode( 'academy_my_lists', 'my_lists' );
+		// $this->shortcode( 'theme_name_my_lists', 'my_lists' );
 	}
 }

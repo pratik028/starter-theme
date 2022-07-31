@@ -1,5 +1,5 @@
 // import Slider from './components/slider';
-class Academy {
+class Theme_Name {
 	constructor() {
 		this.init();
 	}
@@ -8,5 +8,5 @@ class Academy {
 	}
 }
 jQuery( function( $ ) {
-	new Academy()
+	new Theme_Name()
 } )
