@@ -60,7 +60,8 @@
   },
   "scripts": {
     "babel": "babel assets/src/main.js -d assets/js",
-    "build": "webpack --mode=production --progress",
+    "scripts": "webpack --mode=production --progress",
+    "build": "webpack --mode=production & gulp",
     "dev": "BUILD_DEV=true webpack-dev-server -d --hot --inline --progress --colors --inline --content-base ./src/main/resources --port 8081 --output-public-path http://localhost:8081/assets/"
   }
 }

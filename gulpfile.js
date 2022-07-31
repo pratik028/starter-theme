@@ -15,17 +15,6 @@ function generateCSS() {
 		.pipe( dest( './assets/css' ) )
 }
 
-function generateLoginCSS(cb) {
-    return  src('./assets/sass/login.scss')
-        .pipe(sass({
-            includePaths: ['node_modules']
-        }))
-		.pipe(
-			sass( { outputStyle: 'compressed' } ).on( 'error', sass.logError )
-		)
-		.pipe( dest( './assets/css' ) )
-}
-
 function minifyCSS() {
     return src('./assets/css/style.css')
     .pipe(cssNano())
@@ -37,8 +26,7 @@ function watchFiles() {
 }
 
 exports.css = generateCSS;
-exports.loginCss = generateLoginCSS;
 exports.minify = minifyCSS;
 exports.watch = watchFiles;
 
-exports.default = series( generateCSS, generateLoginCSS );
+exports.default = series( generateCSS );
